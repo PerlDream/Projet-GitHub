@@ -1,0 +1,99 @@
+.container {
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 70px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  font-family: Century Gothic;
+  color: #F74A53
+}
+
+.button {
+  font-family:'Rubik', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #fff;
+  background-color: #f74a53;
+  padding: 14px 25px;
+  border: none;
+  box-shadow: none;
+  border-radius: 18px;
+  transition: 229ms;
+  transform: translateY(0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+
+.button:hover {
+  transition: 229ms;
+  padding: 14px 38px;
+  transform: translateY(-0px);
+  background-color: #fff;
+  color: #000000;
+  border: solid 2px #0e1827;
+}
+
+
+
+.background {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+body {
+  background-image: url("Perfect blue BLUR TEST.jpg");
+  background-repeat: repeat-x;
+  background-color: black;
+  background-size: cover;
+}
+
+
+.element {
+  width: 70px;
+  height: 70px;
+  background-color: black;
+}
+
+
+.un {
+  width: 90px;
+  height: 70px;
+
+}
+
+.deux {
+  width: 400px;
+  height: 70px;
+  background-color: black;
+  text-shadow: 1px 1px 2px #ffafcc, 0 0 1em #a2d2ff, 0 0 0.2em #a2d2ff;
+}
+
+.trois {
+  width: 170px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lien {
+  display: flex;
+  align-self: center;
+  gap: 70px;
+  font-family: 'Rubik';
+}
+
+.lien a {
+  text-decoration: none;
+  align-items: center;
+  color: #F74A53
+}
