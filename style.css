@@ -50,7 +50,7 @@
 
 
 body {
-  background-image: url("Perfect blue BLUR TEST.jpg");
+  background-image: url(assets/Perfect\ blue\ BLUR\ TEST.jpg);
   background-repeat: repeat-x;
   background-color: black;
   background-size: cover;
@@ -65,13 +65,14 @@ body {
 
 
 .un {
-  width: 90px;
+  width: 150px;
   height: 70px;
+  align-items: center;
 
 }
 
 .deux {
-  width: 400px;
+  width: 560px;
   height: 70px;
   background-color: black;
   text-shadow: 1px 1px 2px #ffafcc, 0 0 1em #a2d2ff, 0 0 0.2em #a2d2ff;
@@ -89,7 +90,7 @@ body {
   display: flex;
   align-self: center;
   gap: 70px;
-  font-family: 'Rubik';
+  font-family: 'Fragment Mono', monospace;
 }
 
 .lien a {
